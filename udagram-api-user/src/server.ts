@@ -10,7 +10,6 @@ import { V0_USER_MODELS } from "./controllers/v0/model.index";
 
 (async () => {
   await sequelize.addModels(V0_USER_MODELS);
-  console.log("hELLo");
   
   console.debug("Initialize database connection...");
   await sequelize.sync();
