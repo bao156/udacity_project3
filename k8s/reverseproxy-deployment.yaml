@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - image: bao156/reverseproxy:v1
-          name: reverse-proxy
+          name: reverseproxy
           imagePullPolicy: Always
           resources:
             requests:
